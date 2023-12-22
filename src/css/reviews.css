@@ -1,10 +1,4 @@
 
-.section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-
 .reviews-title {
     color: #FBFBFB;
     text-align: center;
@@ -37,11 +31,11 @@
 
 }
 
-.item-2 {
+.item-benetti {
     display: none;
 }
 
-.item-3 {
+.item-belle-anna {
     display: none;
 }
 
@@ -96,7 +90,7 @@
         margin-bottom: 75px;
     }
 
-    .item-2 {
+    .item-benetti {
         display: block;
     }
 
@@ -126,7 +120,7 @@
         margin-left: auto;
     }
 
-    .item-3 {
+    .item-belle-anna {
         display: block;
     }
 
