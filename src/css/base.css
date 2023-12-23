@@ -26,6 +26,12 @@ section {
     padding: 40px 0px;
 }
 
+@media screen and (max-width:767px) {
+    img {
+        max-width: 100%;
+    }
+}
+
 @media screen and (min-width:768px) {
     .container {
         max-width: 768px;
