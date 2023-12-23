@@ -91,14 +91,11 @@ img {
   font-style: normal;
   color: var(--accent-color-text);
 }
-.section-advantages {
-}
 .advantages-box {
 }
 .advantages-title {
 }
-.visually-hidden {
-}
+
 .advantages-list {
   display: flex;
   background: var(--color-sec-bg);
@@ -115,7 +112,7 @@ img {
   font-weight: 500;
   line-height: 1; /* 100% */
   letter-spacing: -0.05em;
-  margin-bottom: 36px;
+  margin-bottom: 32px;
 }
 .advantages-list-text {
   color: #fbfbfb;
@@ -141,6 +138,7 @@ img {
   top: -18px;
 }
 .advantages-img {
+  border-radius: 25px;
 }
 /*
 |=============================================|
@@ -184,6 +182,7 @@ img {
     flex-wrap: wrap;
     gap: 32px 34px;
   }
+  /* вписати типографію */
 }
 /*
 |========================================================|
@@ -197,19 +196,12 @@ img {
 |==========================================================|
 */
 /* підключення 1x */
-.section-advantages {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../src/img/mobile/advantages.jpg');
+/* .section-advantages {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  margin: auto;
-}
+} */
 /* підключення 2x */
-@media (min-device-pixel-ratio: 2),
+/* @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .section-hero-servise {
@@ -218,8 +210,7 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url('../src/img/mobile/advantages@2x.jpg');
-  }
-}
+  } */
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
@@ -230,6 +221,10 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 34px;
+  }
+  .advantages-box {
+    display: flex;
+    gap: 32px;
   }
 }
 
