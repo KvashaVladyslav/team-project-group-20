@@ -22,13 +22,14 @@
         .container-mobile-menu {
             display: flex;
             flex-direction: column;
+            width: 100%;
         }
     
         .mobile-menu-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 335px;
+            max-width: 335px;
             height: 42px;
             background-color: #FBFBFB;
             padding: 0px 20px;
