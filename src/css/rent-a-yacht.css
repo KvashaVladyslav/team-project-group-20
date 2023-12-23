@@ -132,10 +132,7 @@
 @media screen and (min-width: 768px) {
 
 
-    .rent-a-yacht {
-            padding-top: 75px;
-            padding-bottom: 75px;
-        }
+   
 
     .container {
         max-width: 768px;
@@ -190,7 +187,6 @@
         line-height: 1.1;
         letter-spacing: -0.02em;
         margin-bottom: 100px;
-        
     }
 
 
@@ -287,9 +283,7 @@
         padding-right: 100px;
     }
 
-        .form-with-title {
-            margin-left: 50px;
-        }
+        
 
          .rent-photo-sourse{
         
