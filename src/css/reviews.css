@@ -69,12 +69,6 @@
 
 @media screen and (min-width: 768px) {
 
-
-    .section {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-
     .reviews-title {
         font-size: 48px;
     }
@@ -139,7 +133,9 @@
 /* ==DESKTOP_1440 section-reviews== */
 
 @media screen and (min-width: 1440px) {
-
+    .container {
+        padding: 0px 100px;
+    }
    
     .review-list {
         width: 1240px;
