@@ -81,31 +81,86 @@ img {
 |=============================================|
 */
 /*
+|=============================================|
+|=====|ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
+|=============================================|
+*/
+
+.section-advantages {
+  font-family: Inter;
+  font-style: normal;
+  color: var(--accent-color-text);
+}
+.section-advantages {
+}
+.advantages-box {
+}
+.advantages-title {
+}
+.visually-hidden {
+}
+.advantages-list {
+  display: flex;
+  background: var(--color-sec-bg);
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px 20px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.advantages-list-item {
+}
+.adantages-list-number {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.05em;
+  margin-bottom: 36px;
+}
+.advantages-list-text {
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: -0.02em;
+  opacity: 0.8;
+  position: relative;
+  width: 292px;
+}
+.advantages-list-text::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 295px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(251, 251, 251, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  top: -18px;
+}
+.advantages-img {
+}
+/*
+|=============================================|
+|=====|OFF/ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
+|=============================================|
+*/
+/*
 |====================================================|
 |============|MOBILE STYLES/advantages|==============|
 |====================================================|
 */
+/* ПРОПИСАВ CONTAINER */
+.container {
+  max-width: 375px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (max-width: 767px) {
-  .section {
-  }
-  .section-advantages {
-  }
-  .advantages-box {
-  }
-  .advantages-title {
-  }
-  .visually-hidden {
-  }
-  .advantages-list {
-  }
-  .advantages-list-item {
-  }
-  .adantages-list-number {
-  }
-  .advantages-list-text {
-  }
-  .advantages-img {
-  }
 }
 
 /*
@@ -120,6 +175,15 @@ img {
 |====================================================|
 */
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 767px;
+    padding: 0 32px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 34px;
+  }
 }
 /*
 |========================================================|
@@ -132,8 +196,43 @@ img {
 |============|DESKTOP_1280 STYLES/advantages|==============|
 |==========================================================|
 */
-@media screen and (min-width: 1280px) {
+/* підключення 1x */
+.section-advantages {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../src/img/mobile/advantages.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
 }
+/* підключення 2x */
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero-servise {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../src/img/mobile/advantages@2x.jpg');
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 32px;
+  }
+  /* не працює! не розпаковується */
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 34px;
+  }
+}
+
 /*
 |===========================================================|
 |============|OFF/DESKTOP_1280 STYLES/advantages|===========|
@@ -146,6 +245,10 @@ img {
 |==========================================================|
 */
 @media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
 }
 /*
 |===========================================================|
