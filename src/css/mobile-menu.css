@@ -18,6 +18,11 @@
         .mobile-menu-wrapper.is-open {
             transform: translateX(0%);
         }
+
+        .container {
+            padding-top: 16px;
+            padding-bottom: 40px;
+        }
     
         .container-mobile-menu {
             display: flex;
@@ -29,21 +34,22 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            max-width: 335px;
-            height: 42px;
             background-color: #FBFBFB;
             padding: 0px 20px;
-            margin-top: 16px;
-            margin-bottom: 200px;
             border-radius: 8px;
         }
     
-        .mobile-menu-header-text {
+        .mobile-menu-header-logo {
             color: #1B414B;
             font-size: 14px;
             font-weight: 500;
             line-height: normal;
             letter-spacing: -0.03em;
+            padding: 13px 0px;
+        }
+
+        .mobile-menu-navigation {
+            margin: auto;
         }
     
         .mobile-menu-close-button {
@@ -95,7 +101,6 @@
             justify-content: center;
             gap: 8px;
             margin-top: auto;
-            padding-bottom: 40px;
         }
     
         .mobile-menu-social-list-item {
