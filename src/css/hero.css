@@ -61,6 +61,61 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 }
 
 
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .hero {
+        background-size: 100%;
+    }
+
+    .hero-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 198px;
+        padding-bottom: 243px;
+    }
+
+    .hero-title {
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 24px;
+    }
+
+    .hero-text {
+        color: rgba(251, 251, 251, 0.70);
+        text-align: center;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.16em;
+        margin-bottom: 38px;
+    }
+
+    .hero-btn {
+        display: flex;
+        padding: 14px 32px;
+        align-items: flex-start;
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        border: none;
+        border-radius: 15px;
+        background: #1B414B;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-btn:hover {
+        color: #1B414B;
+        background-color: #FBFBFB;
+    }
+}
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
@@ -70,7 +125,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 
     .hero-container {
         width: 335px;
-        padding-bottom: 257px;
+        padding-bottom: 243px;
         padding-top: 198px;
         margin-left: auto;
         margin-right: auto;
