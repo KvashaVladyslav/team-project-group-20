@@ -14,15 +14,6 @@
 
 @media screen and (max-width: 767px) {
 
-    .container {
-        max-width: 767px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-
     .header-section-container {
         min-width: 335px;
         padding-left: 20px;
@@ -68,13 +59,6 @@
 
 
 @media screen and (min-width:768px) {
-    .container {
-        max-width: 768px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
 
     .header-section-container {
         max-width: 704px;
@@ -149,13 +133,7 @@
 
 
 @media screen and (min-width:1280px) {
-    .container {
-        max-width: 1280px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+  
 
     .header-section-container {
         max-width: 1080px;
@@ -167,13 +145,7 @@
 
 
 @media screen and (min-width:1440px) {
-    .container {
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+    
 
     .header-section-container {
         max-width: 1240px;
