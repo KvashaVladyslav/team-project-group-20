@@ -144,8 +144,10 @@
 
 
 @media screen and (min-width:1280px) {
-    .container {
-        padding: 0 100px;
+    
+    header.container {
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     .header-section-container {
