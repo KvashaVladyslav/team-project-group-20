@@ -45,6 +45,7 @@
     color: #FBFBFB;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.30);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-menu-list {
