@@ -183,6 +183,13 @@ img {
     gap: 32px 34px;
   }
   /* вписати типографію */
+  .adantages-list-number {
+    color: #fbfbfb;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1; /* 32px */
+    letter-spacing: -1.6px;
+  }
 }
 /*
 |========================================================|
