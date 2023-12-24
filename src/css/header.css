@@ -85,13 +85,13 @@
         padding: 15px 25px 15px 24px;
         color: #fbfbfb;
         text-align: center;
-        font-family: Inter;
         font-size: 9px;
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
         /* 11.7px */
         text-transform: uppercase;
+        cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -102,7 +102,7 @@
 
     .header-menu-list {
         display: flex;
-        column-gap: 4px;
+        gap: 4px;
     }
 
     .icon-social-header {
@@ -116,7 +116,7 @@
     }
 
     .icon-social-list{
-            fill: #1B414B;
+        fill: #1B414B;
     }
 }
 
