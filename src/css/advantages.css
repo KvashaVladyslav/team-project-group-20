@@ -231,7 +231,9 @@ img {
     max-width: 1280px;
     padding: 0 32px;
   }
+
   /* не працює! не розпаковується */
+  /* problems/img */
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
