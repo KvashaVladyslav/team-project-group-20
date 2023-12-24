@@ -229,7 +229,7 @@ img {
 
   .container {
     max-width: 1280px;
-    padding: 0 32px;
+    padding: 0 50px;
   }
 
   /* не працює! не розпаковується */
@@ -237,7 +237,18 @@ img {
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 32px 34px;
+    gap: 44px 44px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 62px;
+    margin-bottom: 0;
+  }
+  .advantages-list-text::before {
+    width: 280px;
+  }
+  .advantages-list-item {
+    width: 280px;
   }
   .advantages-box {
     display: flex;
