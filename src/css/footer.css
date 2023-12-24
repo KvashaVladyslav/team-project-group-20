@@ -3,6 +3,8 @@
 .footer-section {
     max-width: 355px;
     padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-container {
@@ -15,7 +17,7 @@
 
 .footer-box {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer-social {
@@ -30,7 +32,6 @@
     letter-spacing: -0.03em;
     color: #FBFBFB;
     line-height: normal;
-    margin-right: 37px;
 }
 
 .footer-menu-link {
@@ -50,6 +51,7 @@
 
 .footer-menu-list {
     display: flex;
+    justify-content: space-evenly;
     gap: 4px;
 }
 
@@ -85,8 +87,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    width: 279px;
-    height: 72px;
+    max-width: 279px;
+    max-height: 72px;
+    justify-content: center;
 }
 
 .footer-slogan-text {
@@ -142,15 +145,7 @@
         display: block;
     }
 
-    .footer-box {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
     .footer-logo {
-        margin-right: 106px;
         width: 74px;
         height: 24px;
         font-size: 20px;
@@ -166,8 +161,12 @@
         height: 40px;
     }
 
+    .footer-social-list {
+        max-width: 281px;
+        max-height: 40px;
+    }
+
     .footer-social {
-        margin-left: 91px;
         margin-top: 0;
     }
 
@@ -176,8 +175,8 @@
     }
 
     .footer-slogan {
-        width: 640px;
-        height: 96px;
+        max-width: 640px;
+        max-height: 96px;
         margin-top: 0;
     }
 
@@ -193,6 +192,8 @@
 
     .footer-copyright-list {
         gap: 32px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-copyright-item {
@@ -225,7 +226,6 @@
     }
 
     .footer-logo {
-        margin-right: 326px;
         width: 74px;
         height: 24px;
         font-size: 20px;
@@ -249,7 +249,6 @@
     }
 
     .footer-social {
-        margin-left: 311px;
         margin-top: 0;
     }
 
@@ -258,8 +257,8 @@
     }
 
     .footer-slogan {
-        width: 693px;
-        height: 96px;
+        max-width: 693px;
+        max-height: 96px;
         margin-top: 96px;
     }
 
@@ -303,7 +302,6 @@
     }
 
     .footer-logo {
-        margin-right: 409px;
         width: 74px;
         height: 24px;
         font-size: 20px;
@@ -322,12 +320,16 @@
         height: 40px;
     }
 
+    .footer-social-list {
+        max-width: 281px;
+        max-height: 40px;
+    }
+
     .footer-box-2 {
         margin-top: 96px;
     }
 
     .footer-social {
-        margin-left: 388px;
         margin-top: 0;
     }
 
@@ -336,8 +338,8 @@
     }
 
     .footer-slogan {
-        width: 699px;
-        height: 96px;
+        max-width: 699px;
+        max-height: 96px;
         margin-top: 96px;
     }
 
