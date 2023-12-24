@@ -1,0 +1,159 @@
+.setion-about-us {
+  max-width: 335px;
+  overflow: hidden;
+  margin-bottom: 40px;
+   border-radius: 24px;
+  
+  display: flex;
+  justify-content: center;
+background: #FBFBFB;
+margin-right: auto;
+margin-left: auto;
+box-sizing: border-box;
+
+}
+.menu-about {
+  padding: 40px 0;
+}
+.title-about-us {
+  width: 295px;
+  padding:0 20px;
+color: #1B414B;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 1; 
+letter-spacing: -0.02em;
+margin-bottom: 40px;
+}
+.menu-paragraph {
+
+
+}
+.paragraph-about-us {
+    width: 295px;
+    padding:0 20px;
+color: #1B414B;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+letter-spacing: -0.02em;
+margin-bottom: 20px;
+
+
+}
+.choice-about-us {
+    width: 290px;
+
+    padding:0 20px;
+  color: #040306;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16;
+letter-spacing: -0.02em;
+opacity: 0.4;
+}
+.about-foto {
+  min-width: 335px;
+  border-radius: 24px;
+}
+@media screen and (min-width: 320px) {
+ 
+  section {
+ padding: 0;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+.setion-about-us {
+  margin-bottom: 150px;
+  max-width: 704px;
+/* margin-right: 32px;
+margin-left: 32px; */
+
+}
+.menu-about {
+  padding: 50px 0;
+}
+.title-about-us {
+  width: 536px;
+font-size: 48px;
+font-weight: 500;
+margin-bottom: 50px;
+}
+
+.paragraph-about-us {
+    width: 389px;
+   color: #1B414B;
+font-size: 23px;
+
+
+}
+.choice-about-us {
+    width: 385px;
+  color: #040306;
+
+font-size: 13px;
+line-height: 1.15;
+}
+.about-foto {
+  min-width: 704px;
+}
+
+}
+@media screen and (min-width: 1280px) {
+.setion-about-us {
+max-width: 1280px;
+  flex-direction: row;
+ 
+}
+.menu-about {
+  display: flex;
+  
+  margin-bottom: 100px;
+  
+}
+.title-about-us {
+  width: 537px;
+padding-left: 50px;
+margin-bottom: 0;
+}
+.menu-paragraph {
+ width: 354px;
+padding-left: 189px;
+}
+
+.choice-about-us {
+    
+  color: #040306;
+
+
+}
+.about-foto {
+  min-width: 1280px;
+}
+}
+@media screen and (min-width: 1440px) {
+.setion-about-us {
+  max-width: 1440px;
+}
+
+.title-about-us {
+
+padding-left: 50px;
+
+}
+.menu-paragraph {
+  width: 404px;
+padding-left: 299px;
+}
+.about-foto {
+  min-width: 1440px;
+}
+
+}
