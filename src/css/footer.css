@@ -68,6 +68,11 @@
     gap: 8px;
 }
 
+.footer-social-icon {
+    fill: #FBFBFB;
+}
+
+
 .footer-box-2 {
     display: block;
     margin-top: 80px;
