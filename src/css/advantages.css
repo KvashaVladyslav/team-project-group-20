@@ -173,6 +173,19 @@ img {
 |====================================================|
 */
 @media screen and (min-width: 768px) {
+  /* вписати типографію */
+  .adantages-list-number {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1; /* 32px */
+    letter-spacing: -1.6px;
+  }
+  .advantages-list-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15; /* 14.95px */
+    letter-spacing: -0.26px;
+  }
   .container {
     max-width: 767px;
     padding: 0 32px;
@@ -181,14 +194,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 34px;
-  }
-  /* вписати типографію */
-  .adantages-list-number {
-    color: #fbfbfb;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1; /* 32px */
-    letter-spacing: -1.6px;
   }
 }
 /*
@@ -202,7 +207,7 @@ img {
 |============|DESKTOP_1280 STYLES/advantages|==============|
 |==========================================================|
 */
-/* підключення 1x */
+/* використовуй для HEADER/HERO для підключення 1x */
 /* .section-advantages {
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +223,10 @@ img {
       ),
       url('../src/img/mobile/advantages@2x.jpg');
   } */
+
 @media screen and (min-width: 1280px) {
+  /* typography/типографія=tablet */
+
   .container {
     max-width: 1280px;
     padding: 0 32px;
@@ -247,6 +255,8 @@ img {
 |==========================================================|
 */
 @media screen and (min-width: 1440px) {
+  /* typography/типографія=tablet=desktop_1280 */
+
   .container {
     max-width: 1440px;
     padding: 0 15px;
