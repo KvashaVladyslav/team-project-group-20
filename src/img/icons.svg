@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <symbol id="icon-line" viewBox="0 0 5008 32">
-      <path stroke-width="16" d="M0 16h5008"/>
+      <path d="M0.5 1H328.5" stroke="#040306" stroke-opacity="0.1" />
     </symbol>
     <symbol id="icon-close" viewBox="0 0 32 32">
       <path fill="#055545" style="fill:var(--color1, #055545)" d="M32 3.721 28.279 0 16 12.279 3.721 0 0 3.721 12.279 16 0 28.279 3.721 32 16 19.721 28.279 32 32 28.279 19.721 16 32 3.721z"/>
