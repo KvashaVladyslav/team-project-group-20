@@ -89,6 +89,10 @@
         display: none;
     }
 
+    .header-menu-list-li {
+        display: flex;
+    }
+
     .header-menu-list-item {
         border-radius: 8px;
         background: #1B414B80;
@@ -163,10 +167,5 @@
     header.container {
         max-width: 1440px;
         padding-bottom: 75px;
-    }
-    .header-section-container {
-        padding-left: 30px;
-        padding-right: 30px;
-
     }
 }

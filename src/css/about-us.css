@@ -24,9 +24,7 @@
 
 .title-about-us {
   color: #1B414B;
-  font-family: Inter;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -41,9 +39,7 @@
 
 .paragraph-about-us {
   color: #1B414B;
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -54,9 +50,7 @@
 .choice-about-us {
 
   color: #040306;
-  font-family: Inter;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: -0.02em;
@@ -76,7 +70,6 @@
 
   .title-about-us {
     font-size: 48px;
-    font-weight: 500;
   }
 
   .menu-about-content {
@@ -85,7 +78,7 @@
   }
 
   .menu-paragraph {
-    max-width: 385px;
+    max-width: 354px;
   }
 
   .paragraph-about-us {

@@ -118,17 +118,7 @@ img {
   letter-spacing: -0.05em;
 }
 
-.advantages-list-text {
-  color: #fbfbfb;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.16;
-  /* 116.667% */
-  letter-spacing: -0.02em;
-  opacity: 0.8;
-}
-
-.advantages-list-text::before {
+.adantages-list-number::after {
   display: block;
   content: '';
   height: 2px;
@@ -140,6 +130,16 @@ img {
   width: 100%;
   margin-top: 18px;
   margin-bottom: 18px;
+}
+
+.advantages-list-text {
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  /* 116.667% */
+  letter-spacing: -0.02em;
+  opacity: 0.8;
 }
 
 .advantages-img {
@@ -176,18 +176,10 @@ img {
   /* вписати типографію */
   .adantages-list-number {
     font-size: 32px;
-    font-weight: 500;
-    line-height: 1;
-    /* 32px */
-    letter-spacing: -1.6px;
   }
 
   .advantages-list-text {
     font-size: 13px;
-    font-weight: 400;
-    line-height: 1.15;
-    /* 14.95px */
-    letter-spacing: -0.26px;
   }
 
   .container {
@@ -200,10 +192,11 @@ img {
     flex-wrap: wrap;
     gap: 32px 34px;
     justify-content: space-between;
+    padding: 90px 32px;
   }
 
   .advantages-list-item {
-    max-width: 304px;
+    max-width: 300px;
     width: 100%;
   }
 
@@ -255,14 +248,12 @@ img {
   /* не працює! не розпаковується */
   /* problems/img */
   .advantages-list {
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 44px 44px;
     padding: 90px 50px;
     margin-bottom: 0;
   }
 
-  .advantages-list-text::before {
+  .adantages-list-number::after {
     width: 100%;
   }
 
