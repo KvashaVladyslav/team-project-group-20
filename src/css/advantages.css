@@ -239,7 +239,7 @@ img {
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 44px 86px;
+    gap: 44px 32px;
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 50px;
