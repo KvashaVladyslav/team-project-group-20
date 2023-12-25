@@ -1,3 +1,11 @@
+.section-about-us {
+  padding-top: 0px;
+}
+
+.section-about-us .container {
+  padding-top: 0px;
+}
+
 .menu-about {
   display: flex;
   flex-direction: row;
@@ -62,6 +70,9 @@
 
 
 @media screen and (min-width: 768px) {
+  .section-about-us {
+    padding-top: 0px;
+  }
 
   .title-about-us {
     font-size: 48px;
@@ -112,5 +123,16 @@
 
   .choice-about-us {
     color: #040306;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  section .section-about-us {
+    padding-top: 0px;
+  }
+
+  section .container {
+    max-width: 1440px;
+    padding: 0px 50px;
   }
 }

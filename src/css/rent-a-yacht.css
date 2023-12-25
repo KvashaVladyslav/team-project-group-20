@@ -246,6 +246,7 @@
         font-weight: 500;
         line-height: 1.1;
         letter-spacing: -0.02em;
+        margin-bottom: 0px;
     }
 
     .form-label-comment {
@@ -264,14 +265,10 @@
 
 @media screen and (min-width: 1440px) {
 
-    .container {
-        max-width: 1440px;
-        padding-left: 50px;
+    .rent-a-yacht .container {
         padding-right: 100px;
     }
-
-
-
+   
     .rent-photo-sourse {
 
         width: 768px;
