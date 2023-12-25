@@ -1,0 +1,335 @@
+
+.rent-yacht-title {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.rent-a-yacht-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-input {
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    background: transparent;
+    max-width: 375px;
+    width: 100%;
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    outline: 0px solid transparent;
+    margin-bottom: 18px;
+}
+
+.form-field-input::placeholder {
+    color: rgba(251, 251, 251, 0.40);
+}
+
+.form-field-input:focus {
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.50);
+}
+
+
+.form-comment {
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    max-width: 375px;
+    width: 100%;
+    resize: none;
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    background: transparent;
+    padding-left: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: 0px solid transparent;
+    margin-bottom: 40px;
+}
+
+.form-comment:focus {
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.50);
+}
+
+
+.form-comment::placeholder {
+    color: rgba(251, 251, 251, 0.40);
+}
+
+
+.send-button {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 46px;
+    border-radius: 15px;
+    background: rgb(28, 64, 74);
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    border: 1px solid rgb(28, 64, 74);
+    margin-bottom: 80px;
+}
+
+.send-button:hover,
+.send-button:focus {
+    background: #FBFBFB;
+    color: #1B414B;
+}
+
+
+.rent-picture {
+    overflow: hidden;
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
+}
+
+
+
+@media screen and (min-width: 320px) {}
+
+
+@media screen and (min-width: 768px) {
+
+
+
+
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .reverse-for-pc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rent-picture {
+        max-width: 704px;
+        height: 534px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .rent-yacht-title {
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+        margin-left: 116px;
+    }
+
+    .rent-a-yacht-form {
+        max-width: 473px;
+        margin: 0 auto;
+    }
+
+    .form-field-input {
+        font-size: 14px;
+        line-height: 1.3;
+        max-width: 472px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .send-button {
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        margin-bottom: 100px;
+    }
+
+
+    .form-comment {
+        margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 1.3;
+        max-width: 472px;
+        width: 100%;
+        height: 116px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .rent-picture {
+        width: 658px;
+        height: 534px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+
+    .reverse-for-pc {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 48px;
+    }
+
+
+    .rent-yacht-title {
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .rent-a-yacht-form {
+        width: 472px;
+        min-height: 332px;
+    }
+
+    .form-field-input {
+        font-size: 14px;
+        line-height: 1.3;
+        width: 472px;
+        height: 54px;
+    }
+
+    .send-button {
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .form-label-comment {
+        height: 116px;
+    }
+
+    .form-comment {
+        margin-bottom: 50px;
+        font-size: 14px;
+        line-height: 1.3;
+        width: 472px;
+    }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+
+
+
+    .rent-photo-sourse {
+
+        width: 768px;
+        height: 534px;
+        object-fit: cover;
+    }
+
+    .rent-picture {
+        max-width: 768px;
+        width: 100%;
+        height: 534px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+
+    .rent-yacht-title {
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 50px;
+    }
+
+    .rent-a-yacht-form {
+        width: 472px;
+        min-height: 332px;
+    }
+
+    .form-field-input {
+        font-size: 14px;
+        line-height: 1.3;
+        width: 472px;
+        height: 54px;
+    }
+
+    .send-button {
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        margin-bottom: 0px;
+    }
+
+    .form-label-comment {
+        height: 116px;
+    }
+
+    .form-comment {
+        font-size: 14px;
+        line-height: 1.3;
+        width: 472px;
+        margin-bottom: 50px;
+    }
+
+}

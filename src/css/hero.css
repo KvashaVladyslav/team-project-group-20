@@ -1,0 +1,121 @@
+
+
+@media screen and (max-width: 767px) {
+    .hero {
+        padding-top: 99px;
+        padding-bottom: 122px;
+    }
+
+    .hero-title {
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 24px;
+    }
+
+    .hero-text {
+        color: rgba(251, 251, 251, 0.70);
+        text-align: center;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.16em;
+        margin-bottom: 38px;
+    }
+
+    .hero-btn {
+        display: flex;
+        padding: 14px 32px;
+        align-items: flex-start;
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        border: none;
+        border-radius: 15px;
+        background: #1B414B;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-btn:hover {
+        color: #1B414B;
+        background-color: #FBFBFB;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .hero {
+        padding: 100px 0px 215px 0px;
+    }
+    .hero-title {
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Inter;
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin: 0px auto 24px;
+    }
+
+    .hero-text {
+        max-width: 597px;
+        color: rgba(251, 251, 251, 0.70);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4em;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-btn {
+        color: #FBFBFB;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        border: none;
+        border-radius: 15px;
+        background: #1B414B;
+        display: flex;
+        padding: 16px 40px;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-btn:hover {
+        color: #1B414B;
+        background-color: #FBFBFB;
+    }
+}
+
+@media screen and (min-width:1280px) {
+
+    .hero {
+        padding: 155px 0px 180px 0px;
+    }
+    .hero-title {
+        max-width: 1085px;
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Inter;
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+    }
+}
