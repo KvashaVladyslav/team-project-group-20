@@ -30,6 +30,13 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
+}
+
+
+@media screen and (max-width:320px) {
+  img {
+    max-width: 100%;
+  }
+  
 }
