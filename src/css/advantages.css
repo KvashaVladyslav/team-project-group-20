@@ -1,0 +1,282 @@
+/*
+|=========================================|
+|=====|ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
+|=========================================|
+*/
+
+/*
+|=====================================|
+|------|ДЕФОЛТНІ СКИДАННЯ/RESET|------|
+|=====================================|
+*/
+/*скинув маркери*/
+.list {
+  list-style: none;
+}
+
+/* скинув підкреслення */
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+/*
+|------------COLORS/FONTS/OTHER----------|
+|----прописати зрозумілі значення для кольрів:----|
+|- CL - колір для тексту;-------------------------------|
+|- H - колір для заголовків;----------------------------|
+|- P - колір для абзаців;----------------------------|
+|- BG - колір для фону;----------------------------------|
+*/
+:root {
+  --color-1: #040306;
+  --color-body-bg: #0e1823;
+  --color-sec-bg: #1b414b;
+  --accent-color-text: #fbfbfb;
+
+  /*fonts*/
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: '', sans-serif;
+}
+
+/*стилі для приховаих заголовків*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*
+|=============================================|
+|=====|OFF/ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
+|=============================================|
+*/
+/*
+|=============================================|
+|=====|ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
+|=============================================|
+*/
+
+.section-advantages {
+  font-family: Inter;
+  font-style: normal;
+  color: var(--accent-color-text);
+}
+.advantages-box {
+}
+.advantages-title {
+}
+
+.advantages-list {
+  display: flex;
+  background: var(--color-sec-bg);
+  flex-direction: column;
+  gap: 40px;
+  padding: 80px 20px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.advantages-list-item {
+}
+.adantages-list-number {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.05em;
+  margin-bottom: 32px;
+}
+.advantages-list-text {
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: -0.02em;
+  opacity: 0.8;
+  position: relative;
+  width: 292px;
+}
+.advantages-list-text::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 295px;
+  height: 2px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(251, 251, 251, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  top: -18px;
+}
+.advantages-img {
+  border-radius: 25px;
+}
+/*
+|=============================================|
+|=====|OFF/ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
+|=============================================|
+*/
+/*
+|====================================================|
+|============|MOBILE STYLES/advantages|==============|
+|====================================================|
+*/
+/* ПРОПИСАВ CONTAINER */
+.container {
+  max-width: 375px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+}
+
+/*
+|========================================================|
+|============|OFF/MOBILE STYLES/advantages|==============|
+|========================================================|
+*/
+
+/*
+|====================================================|
+|============|TABLET STYLES/advantages|==============|
+|====================================================|
+*/
+@media screen and (min-width: 768px) {
+  /* вписати типографію */
+  .adantages-list-number {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1; /* 32px */
+    letter-spacing: -1.6px;
+  }
+  .advantages-list-text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15; /* 14.95px */
+    letter-spacing: -0.26px;
+  }
+  .container {
+    max-width: 767px;
+    padding: 0 32px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px 34px;
+  }
+}
+/*
+|========================================================|
+|============|OFF/TABLET STYLES/advantages|==============|
+|========================================================|
+*/
+
+/*
+|==========================================================|
+|============|DESKTOP_1280 STYLES/advantages|==============|
+|==========================================================|
+*/
+/* використовуй для HEADER/HERO для підключення 1x */
+/* .section-advantages {
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+/* підключення 2x */
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero-servise {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../src/img/mobile/advantages@2x.jpg');
+  } */
+
+@media screen and (min-width: 1280px) {
+  /* typography/типографія=tablet */
+
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+  }
+
+  /* не працює! не розпаковується */
+  /* problems/img */
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 44px 44px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 62px;
+    margin-bottom: 0;
+  }
+  .advantages-list-text::before {
+    width: 280px;
+  }
+  .advantages-list-item {
+    width: 280px;
+  }
+  .advantages-box {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+/*
+|===========================================================|
+|============|OFF/DESKTOP_1280 STYLES/advantages|===========|
+|===========================================================|
+*/
+
+/*
+|==========================================================|
+|============|DESKTOP_1440 STYLES/advantages|==============|
+|==========================================================|
+*/
+@media screen and (min-width: 1440px) {
+  /* typography/типографія=tablet=desktop_1280 */
+
+  .container {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
+}
+/*
+|===========================================================|
+|============|OFF/DESKTOP_1440 STYLES/advantages|===========|
+|===========================================================|
+*/

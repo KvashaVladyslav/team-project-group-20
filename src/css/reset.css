@@ -32,3 +32,11 @@ img {
   display: block;
   height: auto;
 }
+
+
+@media screen and (max-width:320px) {
+  img {
+    max-width: 100%;
+  }
+  
+}
