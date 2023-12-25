@@ -93,9 +93,6 @@ img {
   color: var(--accent-color-text);
 }
 
-.advantages-box {}
-
-.advantages-title {}
 
 .advantages-wrapper {
   display: flex;
@@ -112,7 +109,6 @@ img {
   border-radius: 24px;
 }
 
-.advantages-list-item {}
 
 .adantages-list-number {
   font-size: 28px;
