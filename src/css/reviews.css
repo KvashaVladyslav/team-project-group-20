@@ -139,7 +139,7 @@
 /* ==DESKTOP_1440 section-reviews== */
 
 @media screen and (min-width: 1440px) {
-
+    .reviews.section .container {
         padding: 0px 100px;
     }
    
@@ -153,6 +153,6 @@
         flex-basis: calc((100% - 64px) / 3);
         padding: 32px 36px;
     }
-}
 
+}
 /* ==DESKTOP_1440 section-reviews==*/

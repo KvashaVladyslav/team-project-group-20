@@ -59,6 +59,7 @@
   stroke: rgba(4, 3, 6, 0.1);
   margin-bottom: 16px;
   margin-top: 16px;
+  opacity: 0.1;
 }
 .our-yachts-name {
   max-width: 147px;
@@ -139,10 +140,10 @@
   border: 1px solid rgba(251, 251, 251, 0.35);
   transition: background-color 250ms linear, color 250ms linear;
 }
-.our-yachts-button:focus,
-.our-yachts-button:hover {
+.our-yachts-link:focus,
+.our-yachts-link:hover {
   background-color: #fbfbfb;
-   color: #1b414b;
+  color: #1b414b;
 }
 
 @media screen and (min-width: 768px) {
