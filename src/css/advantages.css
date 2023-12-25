@@ -274,6 +274,15 @@ img {
     max-width: 1440px;
     padding: 0 15px;
   }
+  .advantages-list {
+    padding-right: 50px;
+  }
+  .advantages-list-text::before {
+    width: 318px;
+  }
+  .advantages-list-item {
+    width: 318px;
+  }
 }
 /*
 |===========================================================|
