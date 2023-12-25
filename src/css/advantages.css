@@ -42,6 +42,7 @@ ol {
 img {
   display: block;
 }
+
 /*
 |------------COLORS/FONTS/OTHER----------|
 |----прописати зрозумілі значення для кольрів:----|
@@ -91,9 +92,15 @@ img {
   font-style: normal;
   color: var(--accent-color-text);
 }
-.advantages-box {
-}
-.advantages-title {
+
+.advantages-box {}
+
+.advantages-title {}
+
+.advantages-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .advantages-list {
@@ -103,43 +110,46 @@ img {
   gap: 40px;
   padding: 80px 20px;
   border-radius: 24px;
-  margin-bottom: 20px;
 }
-.advantages-list-item {
-}
+
+.advantages-list-item {}
+
 .adantages-list-number {
   font-size: 28px;
   font-weight: 500;
-  line-height: 1; /* 100% */
+  line-height: 1;
+  /* 100% */
   letter-spacing: -0.05em;
-  margin-bottom: 32px;
 }
+
 .advantages-list-text {
   color: #fbfbfb;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
+  /* 116.667% */
   letter-spacing: -0.02em;
   opacity: 0.8;
-  position: relative;
-  width: 292px;
 }
+
 .advantages-list-text::before {
-  position: absolute;
   display: block;
   content: '';
-  width: 295px;
   height: 2px;
   flex-shrink: 0;
   border-radius: 18px;
   background: rgba(251, 251, 251, 0.1);
   margin-left: auto;
   margin-right: auto;
-  top: -18px;
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
+
 .advantages-img {
   border-radius: 25px;
 }
+
 /*
 |=============================================|
 |=====|OFF/ЗАГАЛЬНІ СТИЛІ/COMMON STYLES|======|
@@ -151,15 +161,8 @@ img {
 |====================================================|
 */
 /* ПРОПИСАВ CONTAINER */
-.container {
-  max-width: 375px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media screen and (max-width: 767px) {
-}
+
+@media screen and (max-width: 767px) {}
 
 /*
 |========================================================|
@@ -173,29 +176,46 @@ img {
 |====================================================|
 */
 @media screen and (min-width: 768px) {
+
   /* вписати типографію */
   .adantages-list-number {
     font-size: 32px;
     font-weight: 500;
-    line-height: 1; /* 32px */
+    line-height: 1;
+    /* 32px */
     letter-spacing: -1.6px;
   }
+
   .advantages-list-text {
     font-size: 13px;
     font-weight: 400;
-    line-height: 1.15; /* 14.95px */
+    line-height: 1.15;
+    /* 14.95px */
     letter-spacing: -0.26px;
   }
+
   .container {
     max-width: 767px;
     padding: 0 32px;
   }
+
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 34px;
+    justify-content: space-between;
+  }
+
+  .advantages-list-item {
+    max-width: 304px;
+    width: 100%;
+  }
+
+  .advantages-wrapper {
+    gap: 32px;
   }
 }
+
 /*
 |========================================================|
 |============|OFF/TABLET STYLES/advantages|==============|
@@ -232,24 +252,28 @@ img {
     padding: 0 50px;
   }
 
+  .advantages-wrapper {
+    flex-direction: row;
+  }
+
   /* не працює! не розпаковується */
   /* problems/img */
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 44px 44px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 50px;
-    padding-right: 62px;
+    padding: 90px 50px;
     margin-bottom: 0;
   }
+
   .advantages-list-text::before {
-    width: 280px;
+    width: 100%;
   }
+
   .advantages-list-item {
-    width: 280px;
+    max-width: 280px;
   }
+
   .advantages-box {
     display: flex;
     gap: 32px;
@@ -268,13 +292,23 @@ img {
 |==========================================================|
 */
 @media screen and (min-width: 1440px) {
-  /* typography/типографія=tablet=desktop_1280 */
 
-  .container {
-    max-width: 1440px;
-    padding: 0 15px;
+  /* typography/типографія=tablet=desktop_1280 */
+  .advantages-list-item {
+    max-width: 318px;
   }
+
+  .advantages-list {
+    gap: 44px 32px;
+  }
+
+  .advantages-box.container {
+    padding: 0px 50px;
+    max-width: 1440px;
+  }
+
 }
+
 /*
 |===========================================================|
 |============|OFF/DESKTOP_1440 STYLES/advantages|===========|
