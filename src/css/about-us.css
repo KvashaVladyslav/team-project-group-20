@@ -1,0 +1,138 @@
+.section-about-us {
+  padding-top: 0px;
+}
+
+.section-about-us .container {
+  padding-top: 0px;
+}
+
+.menu-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FBFBFB;
+  border-radius: 24px;
+}
+
+.menu-about-content {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+
+.title-about-us {
+  color: #1B414B;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.menu-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.paragraph-about-us {
+  color: #1B414B;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+
+
+}
+
+.choice-about-us {
+
+  color: #040306;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  opacity: 0.4;
+}
+
+.about-foto {
+  border-radius: 20px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .section-about-us {
+    padding-top: 0px;
+  }
+
+  .title-about-us {
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  .menu-about-content {
+    padding: 50px 136px 50px 32px;
+    gap: 50px;
+  }
+
+  .menu-paragraph {
+    max-width: 385px;
+  }
+
+  .paragraph-about-us {
+    color: #1B414B;
+    font-size: 23px;
+  }
+
+  .choice-about-us {
+    color: #040306;
+    font-size: 13px;
+    line-height: 1.15;
+  }
+
+
+}
+
+@media screen and (min-width: 1280px) {
+
+  .menu-about-content {
+    padding: 50px 50px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-about {
+    flex-direction: column;
+
+  }
+
+  .title-about-us {
+    max-width: 535px;
+  }
+
+  .menu-paragraph {}
+
+  .choice-about-us {
+    color: #040306;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  section .section-about-us {
+    padding-top: 0px;
+  }
+
+  section .container {
+    max-width: 1440px;
+    padding: 0px 50px;
+  }
+}
