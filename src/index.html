@@ -1,42 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>jachtjet</title>
+<section class="setion-about-us">
+  <div class="container">
+    <div class="menu-about">
+      <div class="menu-about-content">
+        <h2 class="title-about-us">
+          YachtJet fleet is here to take you on the ultimate adventure
+        </h2>
+        <div class="menu-paragraph">
+          <p class="paragraph-about-us">
+            From spacious decks to state-of-the-art technology, our yachts are
+            designed to provide the perfect blend of luxury and functionality.
+          </p>
+          <p class="choice-about-us">
+            Take a look at our selection below and choose the yacht that matches
+            your needs and preferences.No matter which yacht you choose, our
+            experienced crew will ensure that your journey is smooth and
+            enjoyable. Book now and get ready for an unforgettable adventure on
+            the high seas.
+          </p>
+        </div>
+      </div>
+      <picture class="about-foto">
+        <source
+          srcset="
+            ../img/desktop_1440/about-us.jpg    1x,
+            ../img/desktop_1440/about-us@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
+        <source
+          srcset="
+            ../img/desktop_1280/about-us.jpg    1x,
+            ../img/desktop_1280/about-us@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+        <source
+          srcset="
+            ../img/tablet/about-us.jpg    1x,
+            ../img/tablet/about-us@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
 
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <div class="image">
-      <load src="partials/header.html" />
-      <load src="partials/hero.html" />
+        <source
+          srcset="
+            ../img/mobile/about-us.jpg    1x,
+            ../img/mobile/about-us@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="about-foto"
+          src="../img/desktop_1440/about-us.jpg 1x"
+          alt="about-us"
+        />
+      </picture>
     </div>
-    <main>
-      <load src="partials/about-us.html" />
-      <load src="partials/our-yachts.html" />
-      <load src="partials/advantages.html" />
-      <load src="partials/rent-a-yacht.html" />
-      <load src="partials/reviews.html" />
-    </main>
-    <load src="partials/footer.html" />
-    <load src="partials/mobile.menu.html" />
-
-    <script type="module" src="/main.js"></script>
-  </body>
-</html>
+  </div>
+</section>
