@@ -18,3 +18,25 @@ document.addEventListener('DOMContentLoaded', function () {
     backdrop.classList.remove('is-open');
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  var backdrop = document.getElementById('backdrop');
+  var toggleButton = document.getElementById('about');
+  toggleButton.addEventListener('click', function () {
+    backdrop.classList.remove('is-open');
+  });
+});
+document.addEventListener('DOMContentLoaded', function () {
+  var backdrop = document.getElementById('backdrop');
+  var toggleButton = document.getElementById('yachts');
+  toggleButton.addEventListener('click', function () {
+    backdrop.classList.remove('is-open');
+  });
+});
+document.addEventListener('DOMContentLoaded', function () {
+  var backdrop = document.getElementById('backdrop');
+  var toggleButton = document.getElementById('review');
+  toggleButton.addEventListener('click', function () {
+    backdrop.classList.remove('is-open');
+  });
+});
