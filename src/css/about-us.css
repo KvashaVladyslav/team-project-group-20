@@ -6,6 +6,10 @@
   padding-top: 0px;
 }
 
+.about-us-photo {
+  border-radius: 20px;
+}
+
 .menu-about {
   display: flex;
   flex-direction: row;
